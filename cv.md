@@ -1,5 +1,6 @@
 # Aliaksandr Sinitsky
 ## _Belarus, Mogilev_
+![ ](Avatar.jpg)
 ___
 ## Contacts:
 *	Discord: AlexSN#9176
