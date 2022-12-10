@@ -24,3 +24,14 @@ main( )
   if (guess = = magic)  printf(“**Правильно**”);
 ```
 ___
+## Skills:
+*	Git, GitHub
+*	Ability to learn a lot
+ ___
+ ## Education and courses:
+*	University: BELARUSIAN-RUSSIAN UNIVERSITY (BRU - Belarus, Mogilev) - engineer
+___
+## Language:
+*	belorussian – mather tongue
+*	russian - native
+* english – B1 
