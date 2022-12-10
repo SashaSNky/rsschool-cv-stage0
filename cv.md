@@ -8,7 +8,7 @@ ___
 ___
 ## About me:
 I want to work in IT
-___
+_ _ _
 ## Code example:
 ```
 #include  <stdio.h>
@@ -25,6 +25,7 @@ _ _ _
 ## Skills:
 *	Git, GitHub
 *	Ability to learn a lot
+
 _ _ _
 ## Education and courses:
 *	University: BELARUSIAN-RUSSIAN UNIVERSITY (BRU - Belarus, Mogilev) - engineer
