@@ -9,6 +9,7 @@
 ***
 ## About me:
 I want to work in IT
+
 ___
 ## Code example:
 ```
@@ -22,14 +23,18 @@ main( )
   scanf(“%d”, &guess);
   if (guess = = magic)  printf(“**Правильно**”);
 ```
-___
+_ _ _
 ## Skills:
 *	Git, GitHub
 *	Ability to learn a lot
- ___
+
+
+_ _ _
 ## Education and courses:
 *	University: BELARUSIAN-RUSSIAN UNIVERSITY (BRU - Belarus, Mogilev) - engineer
-___
+
+
+_ _ _
 ## Language:
 *	belorussian – mather tongue
 *	russian - native
