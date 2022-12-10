@@ -1,15 +1,14 @@
 # Aliaksandr Sinitsky
 ## _Belarus, Mogilev_
-___
+***
 ![ ](Avatar.jpg)
-
-___
+***
 ## Contacts:
-•	Discord: AlexSN#9176 <br/>
-•	E-mail: sanek-avto@yandex.by
-___
+*	Discord: AlexSN#9176
+*	E-mail: sanek-avto@yandex.by
+***
 ## About me:
-***I want to work in IT***
+I want to work in IT
 ___
 ## Code example:
 ```
@@ -28,7 +27,7 @@ ___
 *	Git, GitHub
 *	Ability to learn a lot
  ___
- ## Education and courses:
+## Education and courses:
 *	University: BELARUSIAN-RUSSIAN UNIVERSITY (BRU - Belarus, Mogilev) - engineer
 ___
 ## Language:
