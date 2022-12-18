@@ -1,79 +1,91 @@
-[href="https://www.youtube.com/watch?v=4jYYHaTwWvY"]{
-  Color:blue;
-}
 .main-h2{
 font-size: 28px;
 text-transform: uppercase;
+}
+* {
+  box-sizing: border-box;
 }
 html {
   scroll-behavior: smooth; 
 }
 body {
       font-family: 'Roboto', sans-serif;
-      /* font-size: 45px; */
       min-height: 100vh;
-      margin: 0; padding: 0;
+      margin: 0; 
+      padding: 0;
       /* take footer down */
       display: flex;
       flex-direction: column;
       justify-content: space-between;
 }
-/* universal selector */
-* {
-  box-sizing: border-box;
+/* center it horizontally on the page */
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.main {
+  margin-bottom: auto;
+  background-color: #ffffff;
+} 
+.m-cont{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
 }
 .main-header {
-  background-color: #865a3f;
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 90px;
+    color: #e2e2e2;
+    background-color: #865a3f;
 }
 .main-footer{
-  display: flex;
+    display: flex;
     justify-content: space-around;
     align-items: center;
     height: 90px;
     color: #e2e2e2;
-  background-color: #865a3f;;
+    background-color: #865a3f;
  }
  .footer-icon{
   position: relative;
   height: 30px;
 }
- /* center it horizontally on the page */
- .container {
-      font-size: 24px;
-      max-width: 1600px;
-      margin: 0 auto;
-}
+ 
 .nav-list {
   display: flex;
   /* justify-content: flex-end; */
-  align-items: center;
+  /* align-items: center; */
   list-style: none;
+}
+.navigate {
+
 }
 .nav-item
 {
-  font-size: 14px;
+  font-size: 18px;
 }
 .nav-link {
-      font-size: 24px;
-      columns: #0000ff;
+      font-size: 26px;
+      color: #ffecec;
+      position: relative;
+      padding: 2px 15px;
       text-decoration: none;
-      padding: 0 20px;
       line-height: 50px;
+  }
+  .nav-link:hover {
+    transition: 0.6s;
+    color: #f6f889;
   }
   .pr-list {
     list-style: none;
     color:black;
   }                  
 
-  .main-container{
-    border: 1px;
-    display: flex;
-    flex-wrap: wrap;
-  }
   .section {
-    width: 50%;
-    font-size: 24px;
-   
+    /* width: 50%; */
+    font-size: 22px;
   }
   @media (max-width: 900px) {
     .section {
