@@ -1,33 +1,47 @@
 [href="https://www.youtube.com/watch?v=4jYYHaTwWvY"]{
   Color:blue;
 }
+.main-h2{
+font-size: 28px;
+text-transform: uppercase;
+}
 html {
   scroll-behavior: smooth; 
 }
 body {
- font-family: 'Roboto', sans-serif;
- /* font-size: 45px; */
- min-height: 100vh;
- margin: 0; padding: 0;
- /* take footer down */
- display: flex;
- flex-direction: column;
- justify-content: space-between;
+      font-family: 'Roboto', sans-serif;
+      /* font-size: 45px; */
+      min-height: 100vh;
+      margin: 0; padding: 0;
+      /* take footer down */
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
 }
 /* universal selector */
 * {
   box-sizing: border-box;
 }
 .main-header {
-  border: 1px solid red;
+  background-color: #865a3f;
 }
 .main-footer{
-  border: 1px solid blue;
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    color: #e2e2e2;
+  background-color: #865a3f;;
  }
+ .footer-icon{
+  position: relative;
+  height: 30px;
+}
  /* center it horizontally on the page */
  .container {
-  max-width: 1540px;
-  margin: 0 auto;
+      font-size: 24px;
+      max-width: 1600px;
+      margin: 0 auto;
 }
 .nav-list {
   display: flex;
@@ -40,9 +54,29 @@ body {
   font-size: 14px;
 }
 .nav-link {
-  font-size: 24px;
-  columns: #0000ff;
-  text-decoration: none;
-  padding: 0 20px;
-  line-height: 50px;
+      font-size: 24px;
+      columns: #0000ff;
+      text-decoration: none;
+      padding: 0 20px;
+      line-height: 50px;
+  }
+  .pr-list {
+    list-style: none;
+    color:black;
+  }                  
+
+  .main-container{
+    border: 1px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section {
+    width: 50%;
+    font-size: 24px;
+   
+  }
+  @media (max-width: 900px) {
+    .section {
+      width: 100%;
+    }
   }
