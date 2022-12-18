@@ -1,3 +1,48 @@
 [href="https://www.youtube.com/watch?v=4jYYHaTwWvY"]{
   Color:blue;
 }
+html {
+  scroll-behavior: smooth; 
+}
+body {
+ font-family: 'Roboto', sans-serif;
+ /* font-size: 45px; */
+ min-height: 100vh;
+ margin: 0; padding: 0;
+ /* take footer down */
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+/* universal selector */
+* {
+  box-sizing: border-box;
+}
+.main-header {
+  border: 1px solid red;
+}
+.main-footer{
+  border: 1px solid blue;
+ }
+ /* center it horizontally on the page */
+ .container {
+  max-width: 1540px;
+  margin: 0 auto;
+}
+.nav-list {
+  display: flex;
+  /* justify-content: flex-end; */
+  align-items: center;
+  list-style: none;
+}
+.nav-item
+{
+  font-size: 14px;
+}
+.nav-link {
+  font-size: 24px;
+  columns: #0000ff;
+  text-decoration: none;
+  padding: 0 20px;
+  line-height: 50px;
+  }
