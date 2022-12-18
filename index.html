@@ -1,14 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title> CV2 </title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Sinitski</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Заголовок страницы Н1</h1>
-    <a href="https://www.youtube.com/watch?v=4jYYHaTwWvY" target="_blank"> Ролик по HTML5 </a>
-</body>
+    <link rel="icon" href="assets/img/favicon.ico">
+      <!-- link font from google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- CSS rules to specify families  font-family: 'Roboto', sans-serif; -->
+  </head>
+  <body>
+    <header class="main-header">
+       <!-- site header  -->
+        <div class="container">
+            <section class="section" id="profile">
+                <h1>Aliaksandr Sinitski</h1>
+                <img src="assets/img/FakeAvatar.jpg" alt="my avatar" width="280">
+                <h2>About Me</h2>
+                <p>I'd like to learn something new </p>
+            </section>     
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                 
+                </ul>
+              </nav>
+        </div>
+    </header>
+
+    <main class="main-container">
+       <!-- main data on the page -->
+       <div class="container">
+            <section class="section" id="contacts">
+            <h2 class="main-h2">My contacts</h2>   
+            <hr/>
+            <ul>
+                <li>Discord: AlexSN#9176</li>
+                <li>E-mail: sanek-avto@yandex.by</li>
+                <li>Mogilev, Belarus</li>
+            </ul> 
+           
+            </section>
+            
+             <section id="summary">
+               <h2 class="main-h2">summary</h2>
+<p>   Hello, my name is Alexandr. I am from Mogilev, Belarus and I am 42.</p>
+<p>This year I have started to lern web development. I want to work in IT and I'll do all my best to be a frontend-developer!!</p>
+            </section>
+        <section class="section" id="skills">
+            <h2 class="main-h2">Skills</h2>
+            <ul>
+                <li>Git, GitHub</li>
+                <li>Ability to learn a lot</li>
+            </ul> 
+        </section>
+            <section class="section" id="code">
+                <h2 class="main-h2">Code example</h2>
+                <!-- <pre> -->
+                    <code>
+                        &lt;<span>h3</span>&gt; Insert teg h3 like simle text&lt;<span>/h3</span>&gt;
+                    </code>
+                <!-- </pre> -->
+            </section>
+                <section  id="projects">
+                    <h2 class="main-h2">My projects</h2>
+                    <ul>
+                        <li><a href="https://SashaSnky.github.io/rsschool-cv/cv">CV#1. Markdown &amp; Git</a></li>
+                        <li><a href="https://SashaSnky.github.io/rsschool-cv/">CV#2. HTML, CSS &amp; Git Basics</a></li>
+                    </ul>
+                </section>    
+                <section class="section" id="education">
+                        <h2 class="main-h2">education</h2>
+                        <ul>
+                            <li>University: Belarusian-Russion university (BRU - Belarus, Mogilev)-engineer </li>
+                            <li><a href="https://str.by">Streamline language school</a> </li>
+                        </ul>
+                        
+                </section>    
+             <section class="section" id="english">
+                    <h2 class="main-h2">language</h2>
+                    <ul>
+                        <li>belorussian – mather tongue</li>
+                        <li>russian - native</li>
+                        <li>english – B1</li>
+                    </ul>
+            </section> 
+        </div>
+    </main>
+    <footer class="main-footer">
+       <!-- site footer  -->
+       <!-- <div class="container"> -->
+        <a href="https://github.com/sashasnky" target="_blank"><img class="footer-icon" src="assets/img/git.webp" alt="mygithub"></a>
+        <a href="https://rs.school/js/" target="_blank"><img class="footer-icon" src="https://rs.school/images/rs_school_js.svg" alt="rschool logo"></a>
+        <p>© 2022</p> 
+        <!-- </div> -->
+    </footer>
+  </body>
 </html>
